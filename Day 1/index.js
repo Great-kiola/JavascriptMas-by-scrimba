@@ -32,7 +32,7 @@ var x = setInterval(() => {
     var min = new Date().getMinutes();
     var seconds = new Date().getSeconds();
 
-    countdownDisplay.innerHTML = remainingDate + "rd " + hours + "h " + min + "m " + seconds + "s";
+    countdownDisplay.innerHTML = remainingDate + "d " + hours + "h " + min + "m " + seconds + "s";
 
 }, 1000);
 
