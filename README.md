@@ -6,5 +6,15 @@ This is a javascript advent calender like that is hosted by <a href="https://scr
 
 The challenges are splitted into days which means 24 challenges till christmas.
 
-### Day 1 
+## Day 1 
 This was a simple christmas countdown that just checks how many days until christmas. 
+
+### What i learnt
+In day 1, I learnt how to use the java date() function to get the current date,
+which includes the time, month and the year, I furthered my learning and learnt about moment, and its been fun.
+
+## Day 2 
+Day 2 was a simple colourful gradient button, which changes the direction of the gradient when hovered over, the button also increase in size and the color of the text changes. 
+
+### What i learnt
+In day 2, I learnt how to customize bordered buttons using border-image, ive known how to use the transform scale property which made it easy to use.
