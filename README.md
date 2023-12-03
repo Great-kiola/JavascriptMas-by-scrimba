@@ -18,3 +18,12 @@ Day 2 was a simple colourful gradient button, which changes the direction of the
 
 ### What i learnt
 In day 2, I learnt how to customize bordered buttons using border-image, ive known how to use the transform scale property which made it easy to use.
+
+## Day 3
+This day was a bit easy as we only needed to do calculations :
+
+Pseudo:
+some children have got some pieces of candy. They want to eat as much candy as they can but each child must eat exactly the same amount. Determine how many pieces of candy can be eaten altogether. A piece of candy can not be split.
+
+### What i learnt
+I learnt how to use the Math.floor and some of the other Math function
