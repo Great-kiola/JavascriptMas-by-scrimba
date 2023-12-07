@@ -6,7 +6,7 @@ html {
 }
 
 body {
-
+    background-color: var(--contColor);
     display: grid;
     place-content: center;
     min-height: 100vh;
@@ -14,7 +14,131 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.wishlist {
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.allwish {
+    margin-right: 20px;
+    background-color: var(--cardColor);
+    padding: 20px 20px 50px;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 12px;
+}
+
+.snow{
+    width: 290px !important;
+    position: absolute;
+    bottom: 1px;
+    z-index: 10;
+    left: -3px;
+    pointer-events: none;
+}
+
+/* .santa{
+    width: 80px !important;
+    position: absolute;
+    top: -35px;
+    z-index: 10;
+    right: -25px;
+    pointer-events: none;
+} */
+
+.allwish h1 {
+    font-size: 1rem;
+}
+
+.allwish span {
+    font-weight: 500;
+    color: var(--soldOut);
+}
 
 .allwish img {
-    width: 200px;
+    width: 250px;
+    border-radius: 15px;
+    transition: all 0.5s ease-in-out;
+}
+
+.allwish img:hover {
+    transform: scale(1.05);
+}
+
+.allwish p {
+    font-weight: 700;
+}
+
+button {
+    background-color: var(--soldOut);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: var(--cardColor);
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    z-index: 100;
+
+}
+
+button:hover {
+    background-color: var(--subtleColor);
+    color: var(--cardColor);
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.actions {
+    display: flex;
+    gap: 3px;
+    flex-direction: column;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.uil-heart,
+.uil-link {
+    background-color: var(--textColor);
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    color: var(--contColor);
+    font-size: .8rem !important;
+    text-align: center;
+    line-height: 1.8;
+    cursor: pointer;
+}
+
+.uil-heart:hover,
+.uil-link:hover {
+    background-color: var(--soldOut);
+}
+
+.uil-heart.active,
+.uil-link.active {
+    background-color: var(--canceled);
+    color: var(--cardColor);
+}
+
+
+:root {
+    --contColor: #f7f8f9ff;
+    --cardColor: #fff;
+    --subtleColor: #50b1c9;
+    --soldOut: #0266ffff;
+    --canceled: #ff6c66ff;
+    --active: #54be95ff;
+    --upcoming: #56657fff;
+    --textColor: #010e39ff;
+    --iconCol: #445572;
+    --iconCol2: #abbbd561;
 }
