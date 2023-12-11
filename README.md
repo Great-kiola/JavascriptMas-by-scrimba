@@ -27,3 +27,11 @@ some children have got some pieces of candy. They want to eat as much candy as t
 
 ### What i learnt
 I learnt how to use the Math.floor and some of the other Math function
+
+## Day 10
+Rockin' around
+In Day 10, the challenge was to play a youtube video when a button was clicked
+
+### What i learned
+The challenge was a very simple one, but i overthinked about it too much, but after going around checking youtube video and reading the <a href="https://developers.google.com/youtube/iframe_api_reference">Youtube Iframe Documentation</a>, I got it done.
+I learnt how to use the iframe function.
