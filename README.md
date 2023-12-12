@@ -35,3 +35,22 @@ In Day 10, the challenge was to play a youtube video when a button was clicked
 ### What i learned
 The challenge was a very simple one, but i overthinked about it too much, but after going around checking youtube video and reading the <a href="https://developers.google.com/youtube/iframe_api_reference">Youtube Iframe Documentation</a>, I got it done.
 I learnt how to use the iframe function.
+
+
+## Day 12
+Santa's Gift sorter
+In Day 12, the challenge was to sort a list of data in an array using the sort function.
+
+## What i learned
+I learned how to use the sort() and reverse() functions, the sort() function is used to sort an array in alphabetical order, whiile the reverse() does the opposite of sort(). But there was another different method of sorting without using the reverse();
+
+``` Javascript
+const sortedZA = xmasGifts.sort(function (a, b) {
+  if (a > b) {
+    return -1
+  } else {
+    return 1;
+  }
+})
+
+```
