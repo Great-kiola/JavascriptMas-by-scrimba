@@ -21,15 +21,14 @@ let calcBtn = document.getElementById("btn");
 
 function submitBtn(){
   
+  //Declarations
   let cb = document.getElementById("vegetarian-input");
   let idealDinner = document.querySelector("#food");
   let txtInput = document.getElementById("num-input").value;
   let recipeBtn = document.querySelector(".recipeLink"); 
-
   let url = document.querySelector("a");
-  // let recipeLink = document.querySelector("#recipe");
   
-  
+
   if (cb.checked && txtInput <= 4){
     url.href = "https://www.bbcgoodfood.com/recipes/glazed-gammon";
     idealDinner.innerText = "Ham";
