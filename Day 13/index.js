@@ -15,9 +15,6 @@ Stretch goals:
 - Show recipes when the meal has been selected.
  */
 
-// Declarations
-let calcBtn = document.getElementById("btn");
-// console.log(noOfGuest);
 
 function submitBtn(){
   
